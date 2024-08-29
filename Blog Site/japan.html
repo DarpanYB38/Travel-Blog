@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japan - Travel Details</title>
+    <link rel="stylesheet" href="far_style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Japan</h1>
+        <nav>
+            <a href="country_site.html">Home</a>
+        </nav>
+    </header>
+
+    <section id="paris-details">
+        <img src="media/japan.jpeg" alt="Japan">
+        <h2>About Japan</h2>
+        <p>Paris is known for its stunning architecture, world-class art museums, and rich history. Key attractions include the Eiffel Tower, the Louvre Museum, and Notre-Dame Cathedral.</p>
+
+        <h3>Travel Costs from India</h3>
+        <p><strong>Flight Cost:</strong> Approx. ₹35,000 - ₹70,000 (Round Trip)</p>
+        <p><strong>Accommodation Cost:</strong> Approx. ₹4,000 - ₹12,000 per night</p>
+        <p><strong>Daily Expenses:</strong> Approx. ₹3,000 - ₹7,000 per day (food, transport, etc.)</p>
+
+        <h3>Currency</h3>
+        <p><strong>Currency:</strong> Japanese Yen (JPY) <br> Approx. 1 JPY = ₹0.55</p>
+        <p><strong>Climate:</strong>Japan has a varied climate with four distinct seasons. It ranges from a humid continental climate in the north to a humid subtropical climate in the central and southern regions.</p>
+
+        <h3>Beautiful Places to Visit</h3>
+        <ul>
+            <li><strong>Tokyo:</strong>The capital city, known for its modern skyscrapers, shopping, and traditional temples like Senso-ji.</li>
+            <li><strong>Kyoto:</strong>Famous for its classical Buddhist temples, as well as gardens, imperial palaces, Shinto shrines, and traditional wooden houses.
+            </li>
+            <li><strong>Mount Fuji:</strong>Japan's tallest mountain and a popular destination for hiking and photography.</li>
+            <li><strong>Osaka:</strong>Known for its modern architecture, nightlife, and hearty street food.</li>
+            <li><strong>Hiroshima:</strong>Peace Memorial Park, dedicated to the victims of the 1945 atomic bombing.</li>
+            <li><strong>Nara:</strong>Famous for its temples and friendly deer in Nara Park.
+            </li>
+
+        </ul>
+    </section>
+
+    <aside id="currency-converter">
+        <h2>Currency Converter</h2>
+        <form id="converter-form">
+            <label for="amount">Amount in INR:</label>
+            <input type="number" id="amount" placeholder="Enter amount">
+            
+            <label for="currency">Convert to:</label>
+            <select id="currency">
+                <option value="euro">Euro (€)</option>
+                <option value="usd">US Dollar ($)</option>
+                <option value="aud">Australian Dollar (AUD)</option>
+                <option value="jpy">Japanese Yen (¥)</option>
+                <option value="gbp">British Pound (£)</option>
+            </select>
+
+            <button type="button" onclick="convertCurrency()">Convert</button>
+        </form>
+
+        <p id="conversion-result"></p>
+    </aside>
+
+    <footer>
+        <p>&copy; 2024 Explore the World Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>

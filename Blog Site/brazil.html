@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brazil - Travel Details</title>
+    <link rel="stylesheet" href="far_style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Brazil</h1>
+        <nav>
+            <a href="country_site.html">Home</a>
+        </nav>
+    </header>
+
+    <section id="paris-details">
+        <img src="media/brazil.jpeg" alt="Brazil">
+        <h2>About Brazil</h2>
+        <p>A vibrant country with a diverse landscape, rich culture, and world-famous attractions, offering a unique experience for visitors from India.</p>
+
+        <h3>Travel Costs from India</h3>
+        <p><strong>Flight Cost:</strong>  Approx. ₹80,000 - ₹1,50,000 (Round Trip)</p>
+        <p><strong>Accommodation Cost:</strong> Approx. ₹5,000 - ₹15,000 per night</p>
+        <p><strong>Daily Expenses:</strong>  Approx. ₹2,500 - ₹6,000 per day (food, transport, etc.)</p>
+
+        <h3>Currency</h3>
+        <p><strong>Currency:</strong> Brazilian Real (BRL) <br> Approx. 1 BRL = ₹17.5</p>
+        <p><strong>Climate:</strong> Brazil has a diverse climate, ranging from tropical in the north to temperate in the south. The Amazon basin is notably hot and humid, while the southern region experiences cooler winters.</p>
+
+        <h3>Beautiful Places to Visit</h3>
+        <ul>
+            <li><strong>Rio de Janeiro:</strong>Known for the Christ the Redeemer statue and stunning beaches.</li>
+            <li><strong>Amazon Rainforest:</strong>The largest rainforest in the world, rich in biodiversity.</li>
+            <li><strong>Iguaçu Falls:</strong>One of the largest and most impressive waterfall systems in the world.</li>
+            <li><strong>Salvador:</strong>Famous for its Afro-Brazilian culture, historic sites, and vibrant festivals.</li>
+            <li><strong>Pantanal:</strong>The world's largest tropical wetland, known for its wildlife.</li>
+            
+        </ul>
+    </section>
+
+    <aside id="currency-converter">
+        <h2>Currency Converter</h2>
+        <form id="converter-form">
+            <label for="amount">Amount in INR:</label>
+            <input type="number" id="amount" placeholder="Enter amount">
+            
+            <label for="currency">Convert to:</label>
+            <select id="currency">
+                <option value="euro">Euro (€)</option>
+                <option value="usd">US Dollar ($)</option>
+                <option value="aud">Australian Dollar (AUD)</option>
+                <option value="jpy">Japanese Yen (¥)</option>
+                <option value="gbp">British Pound (£)</option>
+            </select>
+
+            <button type="button" onclick="convertCurrency()">Convert</button>
+        </form>
+
+        <p id="conversion-result"></p>
+    </aside>
+
+    <footer>
+        <p>&copy; 2024 Explore the World Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>

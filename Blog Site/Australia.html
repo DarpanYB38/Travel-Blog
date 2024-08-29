@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Australia - Travel Details</title>
+    <link rel="stylesheet" href="far_style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Australia</h1>
+        <nav>
+            <a href="country_site.html">Home</a>
+        </nav>
+    </header>
+
+    <section id="paris-details">
+        <img src="media/austraila.jpeg" alt="Australia">
+        <h2>Australia</h2>
+        <p>A vast, diverse country known for its stunning natural landscapes, unique wildlife, and vibrant culture, offering a unique experience for visitors from India.</p>
+
+        <h3>Travel Costs from India</h3>
+        <p><strong>Flight Cost:</strong> Approx. ₹50,000 - ₹1,00,000 (Round Trip)</p>
+        <p><strong>Accommodation Cost:</strong> Approx. ₹5,000 - ₹15,000 per night</p>
+        <p><strong>Daily Expenses:</strong> Approx. ₹3,000 - ₹7,000 per day (food, transport, etc.)</p>
+
+        <h3>Currency</h3>
+        <p><strong>Currency:</strong> Australian Dollar (AUD) <br> Approx. 1 AUD = ₹53</p>
+        <p><strong>Climate:</strong>Mostly arid or semi-arid, temperate in the southeast and southwest, tropical in the north.</p>
+
+        <h3>Beautiful Places to Visit</h3>
+        <ul>
+            <li><strong>Sydney:</strong>Famous for the Sydney Opera House and Sydney Harbour Bridge</li>
+            <li><strong>Great Barrier Reef:</strong>World’s largest coral reef system</li>
+            <li><strong>Melbourne:</strong>Known for its arts, culture, and coffee scene</li>
+            <li><strong>Uluru(Ayers Rock):</strong>Massive sandstone monolith in the heart of the Northern Territory</li>
+            <li><strong>Great Ocean Road:</strong>Coastal road known for its stunning ocean views and the Twelve Apostles rock formations</li>
+        </ul>
+    </section>
+
+    <aside id="currency-converter">
+        <h2>Currency Converter</h2>
+        <form id="converter-form">
+            <label for="amount">Amount in INR:</label>
+            <input type="number" id="amount" placeholder="Enter amount">
+            
+            <label for="currency">Convert to:</label>
+            <select id="currency">
+                <option value="euro">Euro (€)</option>
+                <option value="usd">US Dollar ($)</option>
+                <option value="aud">Australian Dollar (AUD)</option>
+                <option value="jpy">Japanese Yen (¥)</option>
+                <option value="gbp">British Pound (£)</option>
+            </select>
+
+            <button type="button" onclick="convertCurrency()">Convert</button>
+        </form>
+
+        <p id="conversion-result"></p>
+    </aside>
+
+    <footer>
+        <p>&copy; 2024 Explore the World Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>

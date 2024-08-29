@@ -1,0 +1,142 @@
+* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    margin: 10px 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+h3 {
+    color: #555;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Specific Styles for Detailed Pages */
+#paris-details {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#paris-details h2 {
+    font-size: 2em;
+}
+
+#paris-details p {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+#paris-details h3 {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+aside#currency-converter {
+    background-color: #f0f0f0;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 8px;
+    float: left;
+    width: 300px;
+    margin-bottom: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+aside#currency-converter h3 {
+    margin-top: 0;
+}
+
+aside#currency-converter form {
+    display: flex;
+    flex-direction: column;
+}
+
+aside#currency-converter label {
+    margin-top: 10px;
+}
+
+aside#currency-converter input,
+aside#currency-converter select,
+aside#currency-converter button {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+aside#currency-converter button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+aside#currency-converter button:hover {
+    background-color: #555;
+}

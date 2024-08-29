@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>India - Travel Details</title>
+    <link rel="stylesheet" href="far_style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>India</h1>
+        <nav>
+            <a href="country_site.html">Home</a>
+        </nav>
+    </header>
+
+    <section id="paris-details">
+        <img src="media/india.jpeg" alt="India">
+        <h2>About United States Of America</h2>
+        <p>A diverse and vibrant country with a rich cultural heritage, stunning landscapes, and world-famous landmarks, offering a unique experience for visitors from around the globe.</p>
+
+        <h3>Travel Costs from India</h3>
+        <p><strong>Flight Cost:</strong> Approx. $500 - $1,500 (depending on the departure country and season)</p>
+        <p><strong>Accommodation Cost:</strong> Budget: $10 - $30 per night <br> Mid-range: $30 - $100 per night <br> Luxury: $100+ per night</p>
+        <p><strong>Daily Expenses:</strong>Budget: $20 - $40 per day <br> Mid-range: $40 - $100 per day <br> Luxury: $100+ per day (food, transport, etc.)</p>
+
+        <h3>Currency</h3>
+        <p><strong>Currency:</strong> Indian Rupee (INR) <br> Approx. 1 USD = ₹82</p>
+        <p><strong>Climate:</strong>India has a diverse climate, ranging from tropical monsoon in the south to temperate in the north. The climate varies from hot and humid in the coastal regions to cooler temperatures in the Himalayas.</p>
+
+        <h3>Beautiful Places to Visit</h3>
+        <ul>
+            <li><strong>Taj Mahal, Agra:</strong>One of the Seven Wonders of the World, a symbol of love and Mughal architecture.</li>
+            <li><strong>Jaipur, Rajasthan:</strong>Known as the Pink City, famous for palaces and forts like Amber Fort and City Palace.</li>
+            <li><strong>Kerala:</strong> Known as "God's Own Country," famous for its backwaters, beaches, and lush greenery.</li>
+            <li><strong>Varanasi, Uttar Pradesh:</strong>One of the oldest living cities in the world, known for its ghats along the Ganges River.</li>
+            <li><strong>Goa:</strong>Famous for its beautiful beaches, vibrant nightlife, and Portuguese heritage.</li>
+            <li><strong>Leh-Ladakh</strong>Known for its stunning landscapes, monasteries, and adventure tourism.</li>
+        </ul>
+
+        <h3>Popular Visitor experiences</h3>
+        <ul>
+            <li><strong>Golden Triangle Tour:</strong>Covering Delhi, Agra, and Jaipur, this tour provides a comprehensive experience of India's rich history and architecture.</li>
+            <li><strong>Houseboat Stay in Kerala:</strong>Experience the tranquil backwaters on a traditional houseboat.</li>
+            <li><strong>Desert Safari in Rajasthan:</strong>Explore the Thar Desert with camel rides and luxury camping.</li>
+            <li><strong>Spiritual Retreats:</strong> Places like Rishikesh, Varanasi, and Dharamshala offer spiritual retreats, yoga, and meditation.</li>
+        </ul>
+    </section>
+
+    <aside id="currency-converter">
+        <h2>Currency Converter</h2>
+        <form id="converter-form">
+            <label for="amount">Amount in INR:</label>
+            <input type="number" id="amount" placeholder="Enter amount">
+            
+            <label for="currency">Convert to:</label>
+            <select id="currency">
+                <option value="euro">Euro (€)</option>
+                <option value="usd">US Dollar ($)</option>
+                <option value="aud">Australian Dollar (AUD)</option>
+                <option value="jpy">Japanese Yen (¥)</option>
+                <option value="gbp">British Pound (£)</option>
+            </select>
+
+            <button type="button" onclick="convertCurrency()">Convert</button>
+        </form>
+
+        <p id="conversion-result"></p>
+    </aside>
+
+    <footer>
+        <p>&copy; 2024 Explore the World Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>

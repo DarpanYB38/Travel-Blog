@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UK - Travel Details</title>
+    <link rel="stylesheet" href="far_style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>UK</h1>
+        <nav>
+            <a href="country_site.html">Home</a>
+        </nav>
+    </header>
+
+    <section id="paris-details">
+        <img src="media/uk.jpeg" alt="UK">
+        <h2>About United Kingdom</h2>
+        <p>A historically rich country known for its diverse landscapes, iconic landmarks, and vibrant culture, offering a unique experience for visitors from India.</p>
+
+        <h3>Travel Costs from India</h3>
+        <p><strong>Flight Cost:</strong>  Approx. ₹50,000 - ₹90,000 (Round Trip)</p>
+        <p><strong>Accommodation Cost:</strong> Approx. ₹6,000 - ₹18,000 per night</p>
+        <p><strong>Daily Expenses:</strong> Approx. ₹3,000 - ₹8,000 per day (food, transport, etc.)</p>
+
+        <h3>Currency</h3>
+        <p><strong>Currency:</strong> British Pound Sterling (GBP) <br> Approx. 1 GBP = ₹104</p>
+        <p><strong>Climate:</strong>Generally temperate, with plenty of rainfall throughout the year.</p>
+
+        <h3>Beautiful Places to Visit</h3>
+        <ul>
+            <li><strong>London:</strong>Buckingham Palace, Tower of London, Big Ben</li>
+            <li><strong>Edinburgh:</strong>The historic and cultural capital of Scotland</li>
+            <li><strong>Stonehenge:</strong>Prehistoric monument in Wiltshire</li>
+            <li><strong>Lake District:</strong>National park known for its glacial ribbon lakes and rugged mountains</li>
+            <li><strong>Bath:</strong>Famous for its Roman-built baths</li>
+            
+        </ul>
+    </section>
+
+    <aside id="currency-converter">
+        <h2>Currency Converter</h2>
+        <form id="converter-form">
+            <label for="amount">Amount in INR:</label>
+            <input type="number" id="amount" placeholder="Enter amount">
+            
+            <label for="currency">Convert to:</label>
+            <select id="currency">
+                <option value="euro">Euro (€)</option>
+                <option value="usd">US Dollar ($)</option>
+                <option value="aud">Australian Dollar (AUD)</option>
+                <option value="jpy">Japanese Yen (¥)</option>
+                <option value="gbp">British Pound (£)</option>
+            </select>
+
+            <button type="button" onclick="convertCurrency()">Convert</button>
+        </form>
+
+        <p id="conversion-result"></p>
+    </aside>
+
+    <footer>
+        <p>&copy; 2024 Explore the World Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>
